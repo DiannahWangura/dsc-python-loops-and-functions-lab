@@ -13,7 +13,7 @@ CUSTOM_COMMIT_MSG_FLAG = "-m"
 
 # FUNCTIONS
 
-
+# checking how to add and push files
 def get_notebook_json(filename="index.ipynb"):
     with open(filename, 'r') as f:
         data = json.load(f)
